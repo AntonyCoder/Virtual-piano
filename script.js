@@ -29,7 +29,6 @@ function playAudio(src) {
   audio.play();
 }
 
-/* новое решение */
 const startSound = (event) => {
   if(event.target.classList.contains('piano-key')) {
     const note = event.target.dataset.note;
